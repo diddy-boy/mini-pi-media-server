@@ -1,5 +1,3 @@
-READ ME for Mini pi media server
-
 What is it ?
 A very light weight media server that can run on a Raspberry Pi zero 2 w up to a Raspberry Pi 5.
 
@@ -10,7 +8,7 @@ Minidlna - for local streaming to smart devices like TV's
 Apache - for web based access and streaming the media through a web browser (or through a web browser on a phone).
 
 I like it, how do I install it ?
-The installer and all config files are contained in the zip folder which makes it easier just to install on a raspberry pi with one command :-
+The installer and all config files are contained in the zip folder which makes it easier just to install on a raspberry pi with one command ( copy and paste):-
 
 wget https://github.com/diddy-boy/mini-pi-media-server/raw/main/pi-setupV3-2.zip && unzip pi-setupV3-2.zip && cd pi-setup && sudo ./mini-pi-setup.sh
 
