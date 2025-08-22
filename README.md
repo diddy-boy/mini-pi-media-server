@@ -7,6 +7,9 @@ Cockpit for web based remote administration of the server,
 Minidlna - for local streaming to smart devices like TV's,
 Apache - for web based access and streaming the media through a web browser (or through a web browser on a phone).
 
+So what does it look like ?
+https://hackaday.io/project/199227-pi-zero-2w-mini-dlna-server
+
 I like it, how do I install it ?
 The installer and all config files are contained in the zip folder which makes it easier just to install on a raspberry pi with one command ( copy and paste):-
 
