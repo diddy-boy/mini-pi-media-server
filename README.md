@@ -2,9 +2,9 @@ What is it ?
 A very light weight media server that can run on a Raspberry Pi zero 2 w up to a Raspberry Pi 5.
 
 What does it run ? 
-Samba for local network accees
-Cockpit for web based remote administration of the server
-Minidlna - for local streaming to smart devices like TV's
+Samba for local network accees,
+Cockpit for web based remote administration of the server,
+Minidlna - for local streaming to smart devices like TV's,
 Apache - for web based access and streaming the media through a web browser (or through a web browser on a phone).
 
 I like it, how do I install it ?
