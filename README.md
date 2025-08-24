@@ -1,6 +1,9 @@
 What is it ?
 A very light weight media server that can run on a Raspberry Pi zero 2 w up to a Raspberry Pi 5.
 
+## Demo Video
+<video src="https://www.youtube.com/watch?v=qeu4PCG4AYE" controls width="600"></video>
+
 What does it run ? 
 Samba for local network accees,
 Cockpit for web based remote administration of the server,
