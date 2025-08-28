@@ -16,7 +16,7 @@ https://hackaday.io/project/199227-pi-zero-2w-mini-dlna-server
 I like it, how do I install it ?
 The installer and all config files are contained in the zip folder which makes it easier just to install on a raspberry pi with one command ( copy and paste):-
 
-wget https://github.com/diddy-boy/mini-pi-media-server/raw/main/pi-setupV3-2.zip && unzip pi-setupV3-2.zip && cd pi-setup && sudo ./mini-pi-setup.sh
+wget https://github.com/diddy-boy/mini-pi-media-server/raw/main/pi-setupV3-3.zip && unzip pi-setupV3-3.zip && cd pi-setup && sudo ./mini-pi-setup.sh
 
 so what is in the zip file ?
 All images, config files and web files.
