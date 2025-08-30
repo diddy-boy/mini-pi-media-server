@@ -32,7 +32,7 @@ Just run 'sudo ./mini-pi-setup.sh'
 this will install all software and place all config files into their relevant folders
 the user will be asked for a Samba password and if they want to set up a wifi to connect to along with an access point name and password.
 yes the raspberry pi can become a hotspot as well when away from the home network.
-thee user is then asked if they want to set up a timed syncronisation from a local server and if they want to disable swap space
+the user is then asked if they want to set up a timed syncronisation from a local server and if they want to disable swap space
 
 What are the other scripts ?
 Rotating-server-sync.sh - Pull down the most recent media from a home server in the past xx months. the user can set how many months to pull down
@@ -41,4 +41,4 @@ Configure-server-sync.sh - users can set up a timed sync service to always sync 
 
 I borked it, how can I fix it ?
 run the command to download and install again :-
-wget https://github.com/diddy-boy/mini-pi-media-server/raw/main/pi-setupV3-2.zip && unzip pi-setupV3-2.zip && cd pi-setup && sudo ./mini-pi-setup.sh
+wget https://github.com/diddy-boy/mini-pi-media-server/raw/main/pi-setupV3-3.zip && unzip pi-setupV3-3.zip && cd pi-setup && sudo ./mini-pi-setup.sh
