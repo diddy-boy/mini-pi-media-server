@@ -53,6 +53,5 @@ This project is a collection that automates the installation of various open-sou
 * **Samba:** GPL-3.0
 * **Apache:** Apache License 2.0
 * **Cockpit:** LGPL-2.1
-* **DirectoryLister:** MIT License
 
 Users should ensure they comply with the terms of these individual licenses when using this project.
