@@ -42,3 +42,17 @@ Configure-server-sync.sh - users can set up a timed sync service to always sync 
 I borked it, how can I fix it ?
 run the command to download and install again :-
 wget https://github.com/diddy-boy/mini-pi-media-server/raw/main/pi-setupV3-3.zip && unzip pi-setupV3-3.zip && cd pi-setup && sudo ./mini-pi-setup.sh
+
+## License
+
+This project is licensed under the **MIT License**. You are free to copy, modify, and distribute the scripts and configuration files in this repository. See the [LICENSE](LICENSE) file for the full text.
+
+### Third-Party Software
+This project is a collection that automates the installation of various open-source tools. Each of these tools is governed by its own respective license:
+* **MiniDLNA:** GPL-2.0
+* **Samba:** GPL-3.0
+* **Apache:** Apache License 2.0
+* **Cockpit:** LGPL-2.1
+* **DirectoryLister:** MIT License
+
+Users should ensure they comply with the terms of these individual licenses when using this project.
