@@ -41,7 +41,7 @@ Configure-server-sync.sh - users can set up a timed sync service to always sync 
 
 I borked it, how can I fix it ?
 run the command to download and install again :-
-wget https://github.com/diddy-boy/mini-pi-media-server/raw/main/pi-setupV3-3.zip && unzip pi-setupV3-3.zip && cd pi-setup && sudo ./mini-pi-setup.sh
+wget -qO main.zip https://github.com/diddy-boy/mini-pi-media-server/archive/refs/heads/main.zip && unzip -o main.zip && cd mini-pi-media-server-main && unzip -o pi-setup*.zip && cp -rf pi-setup ~/ && cd ~ && rm -rf mini-pi-media-server-main main.zip && cd ~/pi-setup && chmod +x ./*.sh && sudo ./mini-pi-setup.sh
 
 ## License
 
