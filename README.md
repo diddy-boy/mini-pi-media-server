@@ -9,6 +9,8 @@ Samba for local network accees,
 Cockpit for web based remote administration of the server,
 Minidlna - for local streaming to smart devices like TV's,
 Apache - for web based access and streaming the media through a web browser (or through a web browser on a phone).
+Media Scraper: Automatically pulls movie posters and synopses daily at 5 AM.
+Auto-Conversion: A background service that converts MKV files to MP4 at midnight to ensure compatibility with all streaming devices.
 
 So what does it look like ?
 https://hackaday.io/project/199227-pi-zero-2w-mini-dlna-server
@@ -38,6 +40,8 @@ What are the other scripts ?
 Rotating-server-sync.sh - Pull down the most recent media from a home server in the past xx months. the user can set how many months to pull down
 reconfigure-wifi.sh - set up which wifi network to connect to and also set up an access point and password for when the mini pi server is away from home
 Configure-server-sync.sh - users can set up a timed sync service to always sync media from and set a time to syncronise every day.
+mkv-2-mp4.sh: Handles the batch conversion of media files to ensure they play smoothly on web browsers and older smart TVs.
+scraper.py: A Python-based tool that uses DuckDuckGo and BeautifulSoup to find metadata for your media library.
 
 I borked it, how can I fix it ?
 run the command to download and install again :-
