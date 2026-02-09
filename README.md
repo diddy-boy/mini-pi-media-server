@@ -19,7 +19,7 @@ https://hackaday.io/project/199227-pi-zero-2w-mini-dlna-server
 I like it, how do I install it ?
 The installer and all config files are contained in the zip folder which makes it easier just to install on a raspberry pi with one command ( copy and paste):-
 
-wget -qO main.zip https://github.com/diddy-boy/mini-pi-media-server/archive/refs/heads/main.zip && unzip -o main.zip && cd mini-pi-media-server-main && unzip -o pi-setup*.zip && cp -rf pi-setup ~/ && cd ~ && rm -rf mini-pi-media-server-main main.zip && cd ~/pi-setup && chmod +x ./*.sh && sudo ./mini-pi-setup.sh
+wget -qO- https://raw.githubusercontent.com/diddy-boy/mini-pi-media-server/main/install.sh | bash
 
 so what is in the zip file ?
 All images, config files and web files.
@@ -43,9 +43,15 @@ reconfigure-wifi.sh - set up which wifi network to connect to and also set up an
 Configure-server-sync.sh - users can set up a timed sync service to always sync media from and set a time to syncronise every day.
 mkv-2-mp4.sh: Handles the batch conversion of media files to ensure they play smoothly on web browsers and older smart TVs.
 scraper.py: A Python-based tool that uses DuckDuckGo and BeautifulSoup to find metadata for your media library.
+network-verification-tool.sh -  tool to show the wifi card and network setup. will show access point name, password etc
 
 I borked it, how can I fix it ?
 run the command to download and install again :-
+
+wget -qO- https://raw.githubusercontent.com/diddy-boy/mini-pi-media-server/main/install.sh | bash
+
+if that fails, run this :-
+
 wget -qO main.zip https://github.com/diddy-boy/mini-pi-media-server/archive/refs/heads/main.zip && unzip -o main.zip && cd mini-pi-media-server-main && unzip -o pi-setup*.zip && cp -rf pi-setup ~/ && cd ~ && rm -rf mini-pi-media-server-main main.zip && cd ~/pi-setup && chmod +x ./*.sh && sudo ./mini-pi-setup.sh
 
 ## License
