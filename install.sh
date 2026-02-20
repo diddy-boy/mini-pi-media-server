@@ -60,7 +60,7 @@ chmod +x ./*.sh
 
 echo "🚀 Starting installer..."
 sudo ./mini-pi-setup.sh
-sudo ./*.sh
+sudo chmod +x ./*.sh
 
 echo "🧹 Cleaning up..."
 rm -rf "$TMPDIR"
