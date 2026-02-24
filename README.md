@@ -3,7 +3,7 @@ A very light weight media server that can run on a Raspberry Pi zero 2 w up to a
 version 4.3 onwards has the onboard wifi as an access point that the pi routes network traffic through to the ethernet port as well as hosting minidlna, cockpit, samba and apache onto both networks
 
 ## Demo Video
-[![Demo Video](https://img.youtube.com/vi/wmIS9kGbxiU/0.jpg)](https://www.youtube.com/watch?v=wmIS9kGbxiU)
+[![Demo Video](https://img.youtube.com/vi/wmIS9kGbxiU/0.jpg)]([https://www.youtube.com/watch?v=HLibPLdSw-g))
 
 What does it run ? 
 Samba for local network accees,
