@@ -28,11 +28,12 @@ Run this single command in your Raspberry Pi terminal to begin the automated set
 
 Bash
 wget -qO- https://raw.githubusercontent.com/diddy-boy/mini-pi-media-server/main/install.sh | bash
-🛠️ Troubleshooting (The "I Borked It" Fix)
-If the installation fails or you need to reset the configuration, run the following:
 
-Bash
-wget -qO main.zip https://github.com/diddy-boy/mini-pi-media-server/archive/refs/heads/main.zip && unzip -o main.zip && cd mini-pi-media-server-main && unzip -o pi-setup*.zip && cp -rf pi-setup ~/ && cd ~ && rm -rf mini-pi-media-server-main main.zip && cd ~/pi-setup && chmod +x ./*.sh && sudo ./mini-pi-setup.sh
+🛠️ Troubleshooting (The "I Borked It" Fix)
+If the installation fails or you need to reset the configuration, run the following in a bash shell or ssh into the PI:
+
+wget -qO- https://raw.githubusercontent.com/diddy-boy/mini-pi-media-server/main/install.sh | bash
+
 📂 Included Tools & Scripts
 Rotating-server-sync.sh: Syncs the last XX months of media from a home server.
 
