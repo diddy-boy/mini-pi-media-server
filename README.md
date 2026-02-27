@@ -22,4 +22,4 @@ What is it? A very lightweight media server that can run on a Raspberry Pi zero 
 Run this single command in your Raspberry Pi terminal to begin the automated setup:
 
 ```bash
-wget -qO- [https://raw.githubusercontent.com/diddy-boy/mini-pi-media-server/main/install.sh](https://raw.githubusercontent.com/diddy-boy/mini-pi-media-server/main/install.sh) | bash
+wget -qO- https://raw.githubusercontent.com/diddy-boy/mini-pi-media-server/main/install.sh | bash
