@@ -4,7 +4,7 @@
 
 What is it? A very lightweight media server that can run on a Raspberry Pi zero 2 w up to a Raspberry Pi 5. Version 4.3 onwards has the onboard wifi as an access point that the pi routes network traffic through to the ethernet port as well as hosting minidlna, cockpit, samba and apache onto both networks.
 
-[![Demo Video](https://img.shields.io/badge/YouTube-Demo%20Video-red?style=for-the-badge&logo=youtube)]([YOUR_YOUTUBE_LINK_HERE](https://www.youtube.com/watch?v=HLibPLdSw-g))
+[![Demo Video](https://img.shields.io/badge/YouTube-Demo%20Video-red?style=for-the-badge&logo=youtube)]((https://www.youtube.com/watch?v=HLibPLdSw-g))
 
 ---
 
