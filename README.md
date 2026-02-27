@@ -1,4 +1,4 @@
-# 🥧 Mini Pi Media Server
+# 🥧 Mini-Pi Media Server
 
 **A lightweight, all-in-one media server optimized for Raspberry Pi Zero 2 W through Raspberry Pi 5.**
 
