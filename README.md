@@ -22,4 +22,12 @@ What is it? A very lightweight media server that can run on a Raspberry Pi zero 
 Run this single command in your Raspberry Pi terminal to begin the automated setup:
 
 ```bash
-wget -qO- [https://raw.githubusercontent.com/diddy-boy/mini-pi-media-server/main/install.sh](https://raw.githubusercontent.com/diddy-boy/mini-pi-media-server/main/install.sh) | bash
+wget -qO- https://raw.githubusercontent.com/diddy-boy/mini-pi-media-server/main/install.sh
+
+🛠️ Troubleshooting (The "I Borked It" Fix)
+If the installation fails or you need to reset/repair the configuration, simply re-run the install command:
+
+Bash
+wget -qO- https://raw.githubusercontent.com/diddy-boy/mini-pi-media-server/main/install.sh
+
+📂 Integrated Automation & "Smart" ScriptsThis project includes custom logic designed to make the Pi a true "headless" appliance:usb_sync.sh (Auto-Ingest): Automatically detects and mounts USB drives, syncing Video, Music, and Pictures to the internal library. It features Power-Loss Protection by performing a sync and unmounting safely before the user removes the drive.mkv-2-mp4.sh (Midnight Optimizer): Automatically handles media conversion for maximum compatibility. If an H.264 video stream is detected, it remuxes (instant copy); otherwise, it uses Hardware Acceleration (h264_v4l2m2m) to convert MKVs to MP4s efficiently.server_sync.sh (Home Sync): Pull media from your home NAS before a trip. This script supports pulling from both CIFS (Samba) and NFS sources.reconfigure-wifi.sh: Manage WiFi networks and Hotspot/Access Point settings.network-verification-tool.sh: Displays WiFi card status, Access Point names, and passwords.⚙️ Resource Optimization (Tester's Choice)Designed by a software tester, this project is "pincer-tested" on both the Pi Zero 2 W and Pi 5.OptimizationMethodBenefitIdle RAM~200MB UsageLeaves breathing room for streaming on 512MB boards.File AccessApache AliasingServes media directly via /files using Apache Aliases without duplicating data.Video EncodingV4L2 HardwareOffloads encoding from CPU to VPU using h264_v4l2m2m to prevent overheating.PermissionsUnified GID/UIDForces minidlna user/group ownership across Samba, DLNA, and local syncs.
