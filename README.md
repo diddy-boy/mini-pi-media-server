@@ -16,11 +16,11 @@ What is it? A very lightweight media server that can run on a Raspberry Pi zero 
 * **Media Scraper:** Auto-pulls movie posters and synopses daily at 5 AM.
 * **Auto-Conversion:** Background service converts MKV to MP4 at midnight for maximum compatibility.
 
----
 🚀 Quick Install
 Run this single command in your Raspberry Pi terminal to begin the automated setup:
 
 Bash
+---
 wget -qO- [https://raw.githubusercontent.com/diddy-boy/mini-pi-media-server/main/install.sh](https://raw.githubusercontent.com/diddy-boy/mini-pi-media-server/main/install.sh) | bash
 ```
 🛠️ Troubleshooting (The "I Borked It" Fix)
