@@ -22,11 +22,14 @@ Run this single command in your Raspberry Pi terminal to begin the automated set
 
 Bash
 wget -qO- [https://raw.githubusercontent.com/diddy-boy/mini-pi-media-server/main/install.sh](https://raw.githubusercontent.com/diddy-boy/mini-pi-media-server/main/install.sh) | bash
+```
 🛠️ Troubleshooting (The "I Borked It" Fix)
 If the installation fails or you need to reset/repair the configuration, simply re-run the install command:
 
 Bash
+---
 wget -qO- [https://raw.githubusercontent.com/diddy-boy/mini-pi-media-server/main/install.sh](https://raw.githubusercontent.com/diddy-boy/mini-pi-media-server/main/install.sh) | bash
+```
 📂 Integrated Automation & "Smart" Scripts
 This project includes custom logic designed to make the Pi a true "headless" appliance:
 
