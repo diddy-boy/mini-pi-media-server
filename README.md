@@ -25,3 +25,6 @@ Run this single command in your Raspberry Pi terminal to begin the automated set
 
 ```bash
 wget -qO- https://raw.githubusercontent.com/diddy-boy/mini-pi-media-server/main/install.sh | bash
+
+## 🚀 Architecture Diagram
+![Architecture Diagram](images/architecture.png)
