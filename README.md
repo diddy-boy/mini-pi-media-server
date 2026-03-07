@@ -19,12 +19,11 @@ Users of a Pi zero 2 W will need a USB to WIFI adapter to route network traffic 
 * **Auto-Conversion:** Background service converts MKV to MP4 at midnight for maximum compatibility.
 
 ---
+## 🚀 Architecture Diagram
+![Architecture Diagram](images/architecture.png)
 
 ## 🚀 Quick Install
 Run this single command in your Raspberry Pi terminal to begin the automated setup:
 
 ```bash
 wget -qO- https://raw.githubusercontent.com/diddy-boy/mini-pi-media-server/main/install.sh | bash
-
-## 🚀 Architecture Diagram
-![Architecture Diagram](images/architecture.png)
