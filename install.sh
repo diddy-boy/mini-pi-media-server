@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+
+# Tracking Ping - 2 second timeout, always returns 'true' so it never breaks the script
+curl -s -m 2 "https://visitor-badge.laobi.icu/badge?page_id=diddy-boy.mini-pi-media-server.install" > /dev/null 2>&1 || true
 set -e
 
 # can be downloaded by running 
