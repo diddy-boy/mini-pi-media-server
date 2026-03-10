@@ -20,7 +20,7 @@ Users of a Pi zero 2 W will need a USB to WIFI adapter to route network traffic 
 
 ---
 ## 🚀 Architecture Diagram
-![Architecture Diagram](images/architecture.png)
+![Architecture Diagram](images/architecture.jpg)
 
 ## 🚀 Quick Install
 Run this single command in your Raspberry Pi terminal to begin the automated setup:
