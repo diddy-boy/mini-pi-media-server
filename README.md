@@ -16,7 +16,7 @@ Users of a Pi zero 2 W will need a USB to WIFI adapter to route network traffic 
 * **Apache:** Web-based streaming and file access using efficient directory aliasing.
 * **Transmission-Daemon:** Torrent downloader where you can stack up a load of downloads
 * **Media Scraper:** Auto-pulls movie posters and synopses daily at 5 AM.
-* **Auto-Conversion:** Background service converts MKV to MP4 at midnight for maximum compatibility.
+* **Auto-Conversion:** Background service converts MKV to MP4 using inotify and a check every 5 minutes for maximum compatibility.
 
 ---
 ## 🚀 Architecture Diagram
