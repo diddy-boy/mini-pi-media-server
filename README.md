@@ -23,7 +23,8 @@ Users of a Pi zero 2 W will need a USB to WIFI adapter to route network traffic 
 ![Architecture Diagram](images/architecture.jpg)
 
 ![Install count](https://hits.sh/github.com/diddy-boy/mini-pi-media-server/install.svg) installs and counting!
-![Latest version Downloads](https://img.shields.io/github/downloads/diddy-boy/mini-pi-media-server/latest/total)
+
+![Version](https://img.shields.io/github/v/release/diddy-boy/mini-pi-media-server)
 
 ## 🚀 Quick Install
 Run this single command in your Raspberry Pi terminal to begin the automated setup:
