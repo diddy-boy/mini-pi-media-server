@@ -13,9 +13,9 @@ Users of a Pi zero 2 W will need a USB to WIFI adapter to route network traffic 
 * **Samba:** Local network file access, optimized for low-memory environments.
 * **Cockpit:** Web-based remote administration.
 * **MiniDLNA:** Lightweight streaming to Smart TVs with custom directory scanning.
-* **Apache:** Web-based streaming and file access using efficient directory aliasing.
+* **Apache:** Web-based streaming and file access using efficient directory aliasing. Multi device resume on movies.
 * **Transmission-Daemon:** Torrent downloader where you can stack up a load of downloads
-* **Media Scraper:** Auto-pulls movie posters and synopses daily at 5 AM.
+* **Media Scraper:** Auto-pulls movie posters and synopses daily at 5 AM. Will also download subtitles (Opensubtitles account needed).
 * **Auto-Conversion:** Background service converts MKV to MP4 using inotify and a check every 5 minutes for maximum compatibility.
 
 ---
