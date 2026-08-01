@@ -18,7 +18,7 @@ Users of a Pi zero 2 W will need a USB to WIFI adapter to route network traffic 
 * **Media Scraper:** Auto-pulls movie posters and synopses daily at 5 AM. Will also download subtitles (Opensubtitles account needed).
 * **Auto-Conversion:** Background service converts MKV to MP4 using inotify and a check every 5 minutes for maximum compatibility.
 * **Audio CD and DVD Ripping Via USB CD drive:** From version 7.2, users can now rip Audio CDś and DVDś (provided the CD drive is on a powered hub).
-* **Archive movie downloader script that can download legal free older movies from the Internet Archive, Wikimedia Commons, and Public Domain Torrents straight into the video folder 
+* Archive movie downloader script that can download legal free older movies from the Internet Archive, Wikimedia Commons, and Public Domain Torrents straight into the video folder 
 
 ---
 ## 🚀 Architecture Diagram
