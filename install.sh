@@ -41,10 +41,10 @@ unzip -q main.zip
 cd "mini-pi-media-server-$BRANCH"
 
 echo "🗜 Extracting setup package..."
-SETUP_ZIP=$(ls -v pi-setup*.zip | tail -n 1)
+SETUP_ZIP=$(ls -v mini-pi*.zip | tail -n 1)
 
 if [[ -z "$SETUP_ZIP" ]]; then
-    echo "❌ Could not find pi-setup zip file!"
+    echo "❌ Could not find mini-pi setup zip file!"
 	echo " Server Down or maintenance being performed"
 	echo " Please try again later "
     exit 1
