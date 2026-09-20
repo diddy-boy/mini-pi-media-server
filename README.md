@@ -20,7 +20,7 @@ Users of a Pi zero 2 W will need a USB to WIFI adapter to route network traffic 
 * **Audio CD and DVD Ripping Via USB CD drive:** From version 7.2, users can now rip Audio CDś and DVDś (provided the CD drive is on a powered hub).
 * **Remote play:** Any client can remote play to any other client across the same network provided each client is at the main web page
 * Archive movie downloader script that can download legal free older movies from the Internet Archive, Wikimedia Commons, and Public Domain Torrents straight into the video folder
-* **Easy Connect:** From the index.html main page, Easy Connect will generate a QR code that mobile devices or tablets can use a camera to connect to the mini-pi wifi access point and then scan the second QR code to connect tot he server web page to easily stream movies. 
+* **Easy Connect:** From the index.html main page, Easy Connect will generate two QR codes sp that mobile devices or tablets can use a camera to connect to the mini-pi wifi access point and then scan the second QR code to connect to the server web page to easily stream movies. 
 
 ---
 ## 🚀 Architecture Diagram
