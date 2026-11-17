@@ -26,12 +26,7 @@ Users of a Pi zero 2 W will need a USB to WIFI adapter to route network traffic 
 ## 🚀 Architecture Diagram
 ![Architecture Diagram](screenshot/architecture.jpg)
 
-
-<p>
-  <img src="(https://hits.sh/github.com/diddy-boy/mini-pi-media-server/install.svg)?style=for-the-badge" alt="Visit count" height="35">
-  visits and counting!
-</p>
-
+![Install count](https://hits.sh/github.com/diddy-boy/mini-pi-media-server/install.svg?style=for-the-badge) **installs and counting!**
 
 
 ## 🚀 Quick Install
